@@ -1,0 +1,77 @@
+﻿@model stdInfo
+@{
+    ViewData["Title"] = "Profile ";
+}
+
+<br /><br /><br /><br />
+            <section class="section center-section">
+      <div class="row">
+          <div class="col-lg-1"></div>
+    <div class="col-lg-4"><img src="/assets/img/HosteliteData.png" width="750" height="600"></div>
+    <div class="col-lg-6">
+        <br /><br /><br /><br /><br />
+<div class="container p-3 w-75">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Student Info</h2>
+        </div>
+    </div>
+    <br /><br />
+
+<table class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                Full Name
+            </th>
+            <th>
+                Father Name
+            </th>
+            <th>
+                Registration Number
+            </th>
+            <th>
+                Department
+            </th>
+            <th>
+                CNIC
+            </th>
+            <th>
+                Phone Number
+            </th>
+            <th>
+                Address
+            </th>
+            </tr>
+    </thead>
+    <tbody>
+        
+           <tr>
+                <td>
+                   @Model.stdName
+               </td>
+               <td>
+                   @Model.stdFatherName
+               </td>
+               <td>
+                   @Model.stdReg_no
+               </td>
+               <td>
+                   @Model.stdDept
+               </td>
+               <td>
+                   @Model.stdCNIC
+               </td>
+               <td>
+                   @Model.stdContact_no
+               </td>
+               <td>
+                   @Model.stdAddress
+               </td>
+           </tr>
+       
+    </tbody>
+</table>
+</div></div></div>
+</section>
+<br /><br /><br /><br />

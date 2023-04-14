@@ -1,0 +1,66 @@
+﻿@model FormC
+@{
+    ViewData["Title"] = "FormC";
+}
+<br /><br /><br /><br />
+            @*<section class="section center-section">
+      <div class="row">
+          <div class="col-lg-1"></div>*@
+    @*<div class="col-lg-12">*@
+            <img src="/assets/img/paf.png" @*width="100" height="100"*@>
+            <h1><b>Pak-Austria Fachhochschule:</b></h1><h2><b>Institute of Applied Sciences and Technology, Mang, Haripur, KPK</b></h2>
+            <h5>Website: https://www.paf-iast.edu.pk, Tel: +92-995-645112-116, Fax: +92-995-645117</h5>
+            <br /><br />
+    @*</div>*@
+    @*<div class="col-lg-6">*@
+@*<div class="container p-3 w-75">
+    <div class="row pt-4">
+        <div class="col-12"><br />*@
+            <h2 class="text-primary" style=" text-align: center;"><u>Internship Placement Proforma</u></h2>
+@*        </div>
+    </div>*@
+    <br /><br />
+        <div>
+        <h4><pre>
+            <b>Student Name:</b> <u>     @Model.stdinfo.stdName     </u>
+        </pre></h4>
+        <h4> <pre>
+            <b>Father Name:</b> <u>     @Model.stdinfo.stdFatherName     </u>
+        </pre> </h4>
+        <h4> <pre>
+            <b>Regitration Number:</b> <u>  @Model.stdinfo.stdReg_no  </u> <b>Department:</b> <u>   @Model.stdinfo.stdDept  </u>
+        </pre> </h4>
+        <h4> <pre>
+            <b>CNIC #:</b> <u>  @Model.stdinfo.stdCNIC    </u>   <b>Contact Number:</b> <u>   @Model.stdinfo.stdContact_no   </u>
+        </pre> </h4>
+        <h4> <pre>
+            <b>Email:</b> <u>@Model.stdinfo.userid</u>   <b>Internship Semester:</b> <u>   @Model.I_Semester   </u>
+        </pre> </h4>
+        <h4> <pre>
+            <b>Present Adress:</b> <u>  @Model.stdinfo.stdAddress    </u>
+        </pre> </h4>
+        <h4> <pre>
+            <b>Employer Name:</b> <u>   @Model.IE_Name    </u>
+        </pre> </h4>
+        <h4> <pre>
+            <b>Internship Department:</b> <u>   @Model.I_Dept   </u>
+        </pre> </h4>
+        <h4> <pre>
+            <b>Joining Date:</b> <u>   @Model.Joining_Date    </u>
+        </pre> </h4>
+        <h4> <pre>
+            <b>Ending Date:</b> <u>   @Model.End_Date    </u>
+        </pre> </h4>
+        <br />
+        <h4>
+            <pre>I hereby declare that the above-mentioned information is correct to the best of my knowledge.
+            </pre><br />
+
+        </h4>
+        <h4><pre>                                                                        <u>                     </u></pre></h4><br />
+        <h4><pre><u>                     </u>                                                   <u>                     </u></pre></h4>
+        
+        <h4><pre>Approval by Employer (Signature)                                       Approval by HOD (Signature)</pre></h4>
+
+    </div>
+    <br /><br /><br />

@@ -1,0 +1,216 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PAFIAST_IMS
+build_property.RootNamespace = PAFIAST_IMS
+build_property.ProjectDir = C:\Users\bilal\source\repos\PAFIAST_IMS\PAFIAST_IMS\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\bilal\source\repos\PAFIAST_IMS\PAFIAST_IMS
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Areas/Identity/Pages/IMS_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcSU1TX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/AssignTask/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWduVGFza1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/AssignTask/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWduVGFza1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/AssignTask/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWduVGFza1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/AssignTask/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWduVGFza1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/FacultyAdvisor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eUFkdmlzb3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/FacultyAdvisor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eUFkdmlzb3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/FacultyAdvisor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eUFkdmlzb3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/FacultyAdvisor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eUFkdmlzb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/FormC/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybUNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/FormC/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybUNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/FormC/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybUNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/FormC/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybUNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/FormC/GetFormC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybUNcR2V0Rm9ybUMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/FormC/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybUNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/IEForm/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUVGb3JtXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/IEForm/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUVGb3JtXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/IEForm/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUVGb3JtXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/IEForm/GetIEForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUVGb3JtXEdldElFRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/IEForm/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUVGb3JtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/PdfReport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGRmUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/stdInfo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3RkSW5mb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/stdInfo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3RkSW5mb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/stdInfo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3RkSW5mb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/stdInfo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3RkSW5mb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/stdInfo/Getstdinfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3RkSW5mb1xHZXRzdGRpbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/stdInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3RkSW5mb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Supervisor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Supervisor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Supervisor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Supervisor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bilal/source/repos/PAFIAST_IMS/PAFIAST_IMS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-llxbrln7nq

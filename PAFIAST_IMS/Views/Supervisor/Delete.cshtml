@@ -1,0 +1,50 @@
+﻿@model Supervisor
+@{
+    ViewData["Title"] = "Supervisor";
+}
+<br /><br /><br /><br />
+<form method="post" asp-action="DeletePOST">
+    <input asp-for="Id" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Delete Supervisor</h2>
+            <hr />
+        </div>
+        @*<div asp-validation-summary="All"></div>*@
+        <div class="mb-3">
+            <label asp-for="SupervisorName"></label>
+            <input asp-for="SupervisorName" class="form-control"/>
+            <span asp-validation-for="SupervisorName" class="text-danger"></span>
+        </div>
+        
+        <div class="mb-3">
+            <label asp-for="SupervisorIN"></label>
+            <input asp-for="SupervisorIN" class="form-control"/>
+            <span asp-validation-for="SupervisorIN" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="SupervisorDesignation"></label>
+            <input asp-for="SupervisorDesignation" class="form-control"/>
+            <span asp-validation-for="SupervisorDesignation" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="SupervisorContactNo"></label>
+            <input asp-for="SupervisorContactNo" class="form-control"/>
+            <span asp-validation-for="SupervisorContactNo" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="SupervisorEmail"></label>
+            <input asp-for="SupervisorEmail" class="form-control"/>
+            <span asp-validation-for="SupervisorEmail" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-danger" style="width:150px">Delete</button>
+        <a asp-controller="Supervisor" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Back to list
+        </a>
+    </div>
+</form>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

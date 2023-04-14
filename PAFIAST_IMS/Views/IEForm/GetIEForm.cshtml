@@ -1,0 +1,187 @@
+﻿@model IEForm
+@{
+    ViewData["Title"] = "Internship Evaluation Form";
+}
+<br /><br /><br /><br />
+<div class="container p-3">
+<img src="/assets/img/paf.png" @*width="100" height="100"*@>
+<h1><b>Pak-Austria Fachhochschule:</b></h1><h2><b>Institute of Applied Sciences and Technology, Mang, Haripur, KPK</b></h2>
+
+<br /><br />
+<h1 class="text-primary" style=" text-align: center;"><pre><u>Internee’s Evaluation Form</u></pre></h1>
+
+<br /><br />
+<div>
+    <h4>
+        <pre><b>Internee’s  Name:</b> <u>     @Model.stdinfo.stdName     </u></pre>
+    </h4>
+    <h4>
+        <pre><b>Organization/Industry Name and City:</b> <u>     @Model.stdinfo.Supervisors.SupervisorIN     </u></pre>
+    </h4>
+    <h4>
+        <pre><b>Industry Supervisor’s Name:</b> <u>@Model.stdinfo.Supervisors.SupervisorName</u>   <b>Designation:</b> <u>   @Model.stdinfo.Supervisors.SupervisorDesignation   </u></pre>
+    </h4>
+    <h4>
+        <pre><b>Starting Date of Internship::</b> <u>@Model.stdinfo.FormCs.Joining_Date</u>   <b>Ending Date of Internship:</b> <u>   @Model.stdinfo.FormCs.End_Date   </u></pre>
+    </h4>
+</div>
+
+<br />
+<h4><pre><b>Please evaluate the performance elements of the internee. </b></pre></h4>
+<br />
+<table class="table table-bordered" style="width:80%">
+    <thead>
+        <tr>
+            <th>
+                <h4><pre><b>1. List of assigned tasks </b></pre></h4>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+            <table class="table table-bordered table-striped" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Tasks</th>
+                        <th>Evaluation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@*@Model.stdinfo.AssignTasks.Tasks*@</td>
+                        <td>@*@Model.stdinfo.AssignTasks.Tasks*@</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>
+                    <pre><b>2. Has student maintained his diary/notes every day</b>                                     <u>@Model.P2</u></pre>
+                </h4>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>
+                <pre><b>3. Attendance of the student</b>                                                                <u>@Model.P3</u></pre>
+                </h4>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>
+                <pre><b>4. Professional attitude of the student</b>                                                     <u>@Model.P4</u></pre>
+                </h4>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>
+                <pre><b>5. Performance as an individual and teamwork</b>                                                <u>@Model.P5</u></pre>
+                </h4>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>
+                <pre><b>6. Internship report and presentation submitted to industry supervisor</b>                      <u>@Model.P6</u></pre>
+                </h4>
+            </td>
+        </tr>
+        <tr>
+            <td><br />
+                <h4>
+                <pre><b>Comment</b> <u>@Model.Comment</u></pre>
+                </h4>
+                <h4><pre><u>                     </u>                                                         <u>                     </u></pre></h4>
+        
+                <h4><pre>Industry Supervisor Signature                                                  Official Seal/Stamp</pre></h4>
+                <h4><pre><b>Date:</b> <u>@Model.CreatedDateTime</u></pre></h4>
+                <h4><pre><b>Contact No(s):</b> <u>@Model.stdinfo.Supervisors.SupervisorContactNo</u></pre></h4>
+                <h4><pre><b>E-mail Address:</b> <u>@Model.stdinfo.Supervisors.SupervisorEmail</u></pre></h4>
+            </td>
+        </tr>
+        <tr>
+            <td><br />
+                <h4><pre><u>                     </u>                                                         <u>                     </u></pre></h4>
+                <h4><pre>Academic Advisor Signature                                                     Official Seal/Stamp</pre></h4>
+                <h4><pre><b>Date:</b> <u>@Model.CreatedDateTime</u></pre></h4>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br /><br /><br /><br />
+@*
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">IEForm List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="IEForm" asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i>&nbsp; Create New IEForm
+            </a>
+        </div>
+    </div>
+    
+
+<table class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                Has student maintained his diary/notes every day
+            </th>
+            <th>
+                Attendance of the student
+            </th>
+            <th>
+                Professional attitude of the student
+            </th>
+            <th>
+                Performance as an individual and teamwork
+            </th>
+            <th>
+                Internship report and presentation submitted to industry supervisor
+            </th>
+            <th>
+                Comment
+            </th>
+        </tr>
+    </thead>
+    <tbody>*@
+        @*@foreach (var Model in Model)
+       {
+           <tr>
+               <td>
+                   @Model.P2
+               </td>
+               <td>
+                   @Model.P3
+               </td>
+               <td>
+                   @Model.P4
+               </td>
+               <td>
+                   @Model.P5
+               </td>
+               <td>
+                   @Model.P6
+               </td>
+               <td>
+                   @Model.Comment
+               </td>
+               <td>
+                   <div class="w-75 btn-group" role="group">
+                       <a asp-controller="IEForm" asp-action="Edit" asp-route-id="@Model.IEFId"
+                       class="btn btn-primary mx-2"><i class="bi bi-pencil-square"></i></a>
+                       <a asp-controller="IEForm" asp-action="Delete" asp-route-id="@Model.IEFId"
+                       class="btn btn-danger mx-2"><i class="bi bi-trash-fill"></i></a>
+                   </div>
+               </td>
+           </tr>
+       @*}
+    </tbody>
+</table>*@
+</div><br /><br />

@@ -1,0 +1,51 @@
+﻿@model FacultyAdvisor
+@{
+    ViewData["Title"] = "Faculty Advisor";
+}
+<br /><br /><br /><br />
+<form method="post">
+    <br /><br /><br /><br />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Create Faculty Advisor</h2>
+            <hr />
+        </div>
+        @*<div asp-validation-summary="All"></div>*@
+        <div class="mb-3">
+            <label asp-for="FacultyAdvisorName"></label>
+            <input asp-for="FacultyAdvisorName" class="form-control"/>
+            <span asp-validation-for="FacultyAdvisorName" class="text-danger"></span>
+        </div>
+        
+        <div class="mb-3">
+            <label asp-for="FacultyAdvisorDept"></label>
+            <input asp-for="FacultyAdvisorDept" class="form-control"/>
+            <span asp-validation-for="FacultyAdvisorDept" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="FacultyAdvisorDesignation"></label>
+            <input asp-for="FacultyAdvisorDesignation" class="form-control"/>
+            <span asp-validation-for="FacultyAdvisorDesignation" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="FacultyAdvisorContactNo"></label>
+            <input asp-for="FacultyAdvisorContactNo" class="form-control"/>
+            <span asp-validation-for="FacultyAdvisorContactNo" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="FacultyAdvisorEmail"></label>
+            <input asp-for="FacultyAdvisorEmail" class="form-control"/>
+            <span asp-validation-for="FacultyAdvisorEmail" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:150px">Create</button>
+        <a asp-controller="FacultyAdvisor" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Back to list
+        </a>
+    </div><br /><br /><br /><br />
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
